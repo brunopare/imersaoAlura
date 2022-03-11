@@ -1,6 +1,7 @@
 
     // gera um numero aleatório entre 0 e 10
-   
+   // == compara o valor 
+   // === compara o valor e o tipo
     var numeroSecreto =  3//parseInt(Math.random() * 11)
     var tentativa = 4
 function Chutar(){

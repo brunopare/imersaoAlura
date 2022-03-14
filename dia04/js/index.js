@@ -25,5 +25,8 @@ var listaFilmes = ["https://www.folhacg.com.br/wp-content/uploads/2021/10/Dune-P
 "https://br.web.img3.acsta.net/medias/nmedia/18/91/90/98/20169244.jpg"]
 
 for (var i = 0; i < listaFilmes.length; i++){
+    // muito bom escrever a tag html no JS 
     document.write("<img src=" +listaFilmes[i] +">" )
 }
+
+

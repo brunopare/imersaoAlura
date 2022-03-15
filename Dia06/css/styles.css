@@ -42,7 +42,7 @@ body{
 table{
     border: 2px solid white;
 }
-h1{
+h1,h2{
     color: white;
 }
 
@@ -51,4 +51,28 @@ tr,
 td{
     border: solid 1px white;
     color: white;
+    margin-bottom: 40px;
 }
+
+img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+   
+  }
+
+  .derrota{
+      background-color: red;
+  }
+
+  button#vitoria{
+      background-color: green;
+  }
+
+  button#empate{
+      background-color: darkkhaki;
+  }
+
+  input{
+      margin-bottom: 10px;
+  }

@@ -19,6 +19,7 @@ function construtorJogador(nome,icon){
 
 //adiciona o jogador na lista de jogadores 
 function adicionaJogador(){
+    //pega o valor dos campos nome e foto
     nome = document.getElementById("nomeJogador").value
     icon = document.getElementById("fotoJogador").value
     if(nome == "" || icon == ""){
